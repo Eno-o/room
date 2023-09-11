@@ -74,7 +74,7 @@ nav .menu li a:hover {
 .box2 {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .writeup1 {
@@ -125,11 +125,11 @@ nav .menu li a:hover {
 .double_arrow {
     background-color: black;
     color: hsl(220, 14%, 75%);
-    width: 161px;
+    width: 160px;
     height: 70px;
     font-size: 35px;
     font-weight: 0px;
-    margin-top: 68px;
+    margin-top: 81px;
 }
 
 .left_arrow {
@@ -154,7 +154,7 @@ nav .menu li a:hover {
 }
 
 .writeup2 {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -167,7 +167,7 @@ nav .menu li a:hover {
 
 .second_writeup {
     margin-top: 15px;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 14px;
     color: hsl(220, 14%, 75%);
 }
@@ -175,10 +175,9 @@ nav .menu li a:hover {
 .img3 {
     flex: 30%;
 }
-
-@media screen and (min-width: 1000px) and (max-width: 1199px) {
+@media screen and (min-width: 1251px) and (max-width: 1270px) {
     .box2 {
-        margin-top: 47px;
+        margin-top: 40px;
     }
 
     .writeup1 {
@@ -191,13 +190,13 @@ nav .menu li a:hover {
     }
 
     .double_arrow {
-        width: 121px;
+        width: 146px;
         height: 58px;
-        margin-top: 71px;
+        margin-top: 103px;
     }
 
     .left_arrow {
-        padding-left: 10px;
+        padding-left: 20px;
     }
     
     .right_arrow {
@@ -205,7 +204,7 @@ nav .menu li a:hover {
     }
 
     .writeup2 {
-        margin-top: 20px;
+        margin-top: 25px;
         margin-left: 27px;
         margin-right: 27px;
     }
@@ -218,13 +217,109 @@ nav .menu li a:hover {
 
     .second_writeup {
         margin-top: 10px;
-        line-height: 17px;
+        line-height: 23px;
         font-size: 14px;
     }
     
 
 }
-@media screen and (min-width: 851px) and (max-width: 999px) {
+@media screen and (min-width: 1221px) and (max-width: 1250px) {
+    .box2 {
+        margin-top: 25px;
+    }
+
+    .writeup1 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .shop {
+        margin-top: 25px;
+    }
+
+    .double_arrow {
+        width: 142px;
+        height: 75px;
+        margin-top: 101px;
+    }
+
+    .left_arrow {
+        padding-left: 16px;
+    }
+    
+    .right_arrow {
+        padding-left: 60px;
+    }
+
+    .writeup2 {
+        margin-top: 25px;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+
+    .head2 {
+        letter-spacing: 6px;
+        font-size: 17px;
+        font-weight: bolder;
+    }
+
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    
+
+}
+@media screen and (min-width: 1100px) and (max-width: 1220px) {
+    .box2 {
+        margin-top: 25px;
+    }
+
+    .writeup1 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .shop {
+        margin-top: 25px;
+    }
+
+    .double_arrow {
+        width: 139px;
+        height: 75px;
+        margin-top: 77px;
+    }
+
+    .left_arrow {
+        padding-left: 15px;
+    }
+    
+    .right_arrow {
+        padding-left: 60px;
+    }
+
+    .writeup2 {
+        margin-top: 25px;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+
+    .head2 {
+        letter-spacing: 6px;
+        font-size: 17px;
+        font-weight: bolder;
+    }
+
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    
+
+}
+@media screen and (min-width: 996px) and (max-width: 1099px) {
     .sub_container_a {
         height: 430px;
     }
@@ -280,9 +375,421 @@ nav .menu li a:hover {
     }
 
     .double_arrow {
-        width: 92px;
+        width: 110px;
         height: 60px;
-        margin-top: 61px;
+        margin-top: 84px;
+    }
+
+    .left_arrow {
+        padding-left: 20px;
+    }
+    
+    .right_arrow {
+        padding-left: 27px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 967px) and (max-width: 995px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 52px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 17px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 99px;
+        height: 60px;
+        margin-top: 84px;
+    }
+
+    .left_arrow {
+        padding-left: 15px;
+    }
+    
+    .right_arrow {
+        padding-left: 27px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 946px) and (max-width: 966px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 35px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 17px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 99px;
+        height: 60px;
+        margin-top: 84px;
+    }
+
+    .left_arrow {
+        padding-left: 15px;
+    }
+    
+    .right_arrow {
+        padding-left: 27px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 900px) and (max-width: 945px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 30px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 17px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 93px;
+        height: 60px;
+        margin-top: 84px;
+    }
+
+    .left_arrow {
+        padding-left: 12px;
+    }
+    
+    .right_arrow {
+        padding-left: 27px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 871px) and (max-width: 899px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 30px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 17px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 89px;
+        height: 60px;
+        margin-top: 83px;
     }
 
     .left_arrow {
@@ -312,7 +819,213 @@ nav .menu li a:hover {
         letter-spacing: 3px;
         font-size: 18px;
         font-weight: bolder;
-        margin-top: 47px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 853px) and (max-width: 870px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 30px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 17px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 87px;
+        height: 60px;
+        margin-top: 83px;
+    }
+
+    .left_arrow {
+        padding-left: 10px;
+    }
+    
+    .right_arrow {
+        padding-left: 27px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 851px) and (max-width: 852px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 30px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 17px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 85px;
+        height: 60px;
+        margin-top: 60px;
+    }
+
+    .left_arrow {
+        padding-left: 7px;
+    }
+    
+    .right_arrow {
+        padding-left: 27px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -363,7 +1076,7 @@ nav .menu li a:hover {
     }
 
     .box2 {
-        margin-top: 49px;
+        margin-top: 30px;
     }
     
     .writeup1 {
@@ -383,9 +1096,9 @@ nav .menu li a:hover {
     }
 
     .double_arrow {
-        width: 82px;
+        width: 84px;
         height: 60px;
-        margin-top: 58px;
+        margin-top: 77px;
     }
 
     .left_arrow {
@@ -415,14 +1128,14 @@ nav .menu li a:hover {
         letter-spacing: 3px;
         font-size: 18px;
         font-weight: bolder;
-        margin-top: 40px;
+        margin-top: 15px;
         margin-left: 10px;
         margin-right: 10px;
     }
     
     .second_writeup {
-        margin-top: 10px;
-        line-height: 20px;
+        margin-top: 5px;
+        line-height: 18px;
         font-size: 14px;
         color: hsl(220, 14%, 75%);
         margin-left: 10px;
@@ -430,7 +1143,7 @@ nav .menu li a:hover {
     }
     
 }
-@media screen and (min-width: 600px) and (max-width: 780px) {
+@media screen and (min-width: 771px) and (max-width: 780px) {
     .sub_container_a {
         height: 430px;
     }
@@ -466,7 +1179,7 @@ nav .menu li a:hover {
     }
 
     .box2 {
-        margin-top: 49px;
+        margin-top: 30px;
     }
     
     .writeup1 {
@@ -488,7 +1201,7 @@ nav .menu li a:hover {
     .double_arrow {
         width: 78px;
         height: 60px;
-        margin-top: 58px;
+        margin-top: 77px;
     }
 
     .left_arrow {
@@ -518,14 +1231,220 @@ nav .menu li a:hover {
         letter-spacing: 3px;
         font-size: 18px;
         font-weight: bolder;
-        margin-top: 30px;
+        margin-top: 15px;
         margin-left: 10px;
         margin-right: 10px;
     }
     
     .second_writeup {
-        margin-top: 10px;
-        line-height: 20px;
+        margin-top: 5px;
+        line-height: 18px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 766px) and (max-width: 770px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 30px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 15px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 78px;
+        height: 60px;
+        margin-top: 77px;
+    }
+
+    .left_arrow {
+        padding-left: 10px;
+    }
+    
+    .right_arrow {
+        padding-left: 20px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 5px;
+        line-height: 18px;
+        font-size: 14px;
+        color: hsl(220, 14%, 75%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 600px) and (max-width: 765px) {
+    .sub_container_a {
+        height: 430px;
+    }
+
+    .logo1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .menu {
+        line-height: 50px;
+        padding: 0 5px;
+        margin-top: 12px;
+    }
+    
+    nav .menu {
+        float: inline-start;
+        padding-left: 0px;
+    }
+    
+    nav .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .box1 {
+        flex: 60%;
+    }
+
+    .box2 {
+        flex: 40%;
+    }
+
+    .box2 {
+        margin-top: 25px;
+    }
+    
+    .writeup1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .head1 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    
+    .first_writeup {
+        margin-top: 15px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+
+    .double_arrow {
+        width: 78px;
+        height: 60px;
+        margin-top: 56px;
+    }
+
+    .left_arrow {
+        padding-left: 10px;
+    }
+    
+    .right_arrow {
+        padding-left: 20px;
+    }
+
+    .writeup2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: hsl(220, 14%, 75%);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: hsl(220, 14%, 75%);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: hsl(220, 14%, 75%);
+    }
+    
+    .head2 {
+        letter-spacing: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .second_writeup {
+        margin-top: 5px;
+        line-height: 18px;
         font-size: 14px;
         color: hsl(220, 14%, 75%);
         margin-left: 10px;
